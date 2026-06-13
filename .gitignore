@@ -1,0 +1,30 @@
+# Python caches and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Local dependency cache used during analysis
+.deps/
+
+# Generated or downloaded helper caches
+figures/.cache/
+scripts/.cache/
+
+# Challenge inputs are intentionally not committed
+data/*.csv
+
+# Miscellaneous archive/binary outputs
+*.whl
+*.zip
+*.tar
+*.gz
