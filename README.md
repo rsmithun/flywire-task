@@ -36,17 +36,6 @@ I treated the task as an exact common-induced-subgraph problem on unweighted dir
 
 The figure script downloads the public MANC annotations and skeletons automatically. Temporary downloads and caches stay under `.deps/` and `figures/.cache/` and are ignored by git.
 
-## Submission Files
-
-- [README.md](README.md): technical approach and reproducibility instructions.
-- [network.csv](network.csv): matched-neuron table for the shared 12-node circuit.
-- [science.md](science.md): one-page scientific summary.
-
-## Notes for GitHub
-
-- The large raw challenge edge lists should remain local-only.
-- If you want a clean repository history, commit only the root deliverables, the scripts, the figures, and the small text files.
-
 ## Repository contents
 
 - [network.csv](network.csv) contains the matched neuron table.
